@@ -9,9 +9,13 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "MyLocation.h"
+#import "GADBannerView.h"
+
 @interface MainViewController : UIViewController <MKMapViewDelegate>  {
     CLLocationManager *locationManager;
     MyLocation *ann;
+    GADBannerView *bannerView_;
+
 }
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;

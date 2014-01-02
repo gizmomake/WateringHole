@@ -10,6 +10,8 @@
 	<string>WateringHole</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>490281FC-1AF1-4DA1-9FBC-646B563205AC</key>
+		<string>https://github.com/gizmomake/Twythm.git</string>
 		<key>E7706687-C3B4-4FAB-88C3-B4F83AB45235</key>
 		<string>https://github.com/gizmomake/WateringHole.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>WateringHole.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>490281FC-1AF1-4DA1-9FBC-646B563205AC</key>
+		<string>../../../../Desktop/Twythm app/TwythmNew/TwythmGit</string>
 		<key>E7706687-C3B4-4FAB-88C3-B4F83AB45235</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>E7706687-C3B4-4FAB-88C3-B4F83AB45235</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>490281FC-1AF1-4DA1-9FBC-646B563205AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwythmGit</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

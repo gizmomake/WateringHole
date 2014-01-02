@@ -11,7 +11,6 @@
 #import "FountainDetail.h"
 #import "ASIHTTPRequest.h"
 
-
 #define METERS_PER_MILE 1609.344
 
 @interface MainViewController ()
@@ -27,7 +26,18 @@
 {
     [super viewDidLoad];
     
-
+    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
+    
+    // Specify the ad unit ID.
+    bannerView_.adUnitID = @"a152c4ce721c65a";
+    
+    // Let the runtime know which UIViewController to restore after taking
+    // the user wherever the ad goes and add it to the view hierarchy.
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    
+    // Initiate a generic request to load it with an ad.
+    [bannerView_ loadRequest:[GADRequest request]];
 
     locationManager = [[CLLocationManager alloc] init];
     locationManager.distanceFilter = kCLDistanceFilterNone;
