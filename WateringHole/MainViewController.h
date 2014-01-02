@@ -23,5 +23,6 @@
 - (IBAction)add:(id)sender;
 - (IBAction)refresh:(id)sender;
 @property (strong, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) IBOutlet UIToolbar *toolbar;
 
 @end

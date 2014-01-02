@@ -21,7 +21,7 @@
 @end
 
 @implementation MainViewController
-@synthesize mapView,label;
+@synthesize mapView,label,toolbar;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
