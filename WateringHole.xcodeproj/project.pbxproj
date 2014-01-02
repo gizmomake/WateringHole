@@ -104,6 +104,8 @@
 		6CE14A3F18750B840050C2F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6CE14A4118750B8B0050C2F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6CE14A4318750B9A0050C2F2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6CE14A4618751F750050C2F2 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		6CE14A4718751FEA0050C2F2 /* launch_retina4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_retina4.png; sourceTree = "<group>"; };
 		6CE3CA381874AA2D00191E67 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = "../../Downloads/pokeb-asi-http-request-ebde72d/Classes/ASIAuthenticationDialog.h"; sourceTree = "<group>"; };
 		6CE3CA391874AA2D00191E67 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = "../../Downloads/pokeb-asi-http-request-ebde72d/Classes/ASIAuthenticationDialog.m"; sourceTree = "<group>"; };
 		6CE3CA3A1874AA2D00191E67 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = "../../Downloads/pokeb-asi-http-request-ebde72d/Classes/ASICacheDelegate.h"; sourceTree = "<group>"; };
@@ -175,6 +177,8 @@
 		6C2DF8F5187129BB000C8A31 = {
 			isa = PBXGroup;
 			children = (
+				6CE14A4718751FEA0050C2F2 /* launch_retina4.png */,
+				6CE14A4618751F750050C2F2 /* launch.png */,
 				6CE14A4518750E0A0050C2F2 /* AdMob */,
 				6CE3CA681874F2BE00191E67 /* Segues */,
 				6CE3CA371874A9FF00191E67 /* ASIHTTPRequest */,
@@ -557,7 +561,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WateringHole/WateringHole-Prefix.pch";
 				INFOPLIST_FILE = "WateringHole/WateringHole-Info.plist";
@@ -581,7 +584,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WateringHole/WateringHole-Prefix.pch";
 				INFOPLIST_FILE = "WateringHole/WateringHole-Info.plist";
