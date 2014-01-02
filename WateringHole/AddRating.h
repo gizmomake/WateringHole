@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GADBannerView.h"
+@interface AddRating : UIViewController {
+    GADBannerView *bannerView_;
 
-@interface AddRating : UIViewController
+}
 
 @property (strong, nonatomic) IBOutlet UISlider *taste;
 @property (strong, nonatomic) IBOutlet UISlider *temp;

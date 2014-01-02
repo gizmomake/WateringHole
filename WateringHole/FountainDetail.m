@@ -31,6 +31,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    bannerView_ = [[GADBannerView alloc] initWithFrame:CGRectMake(0.0,
+                                                                  self.view.frame.size.height -
+                                                                  GAD_SIZE_320x50.height,
+                                                                  GAD_SIZE_320x50.width,
+                                                                  GAD_SIZE_320x50.height)];
+    // Specify the ad's "unit identifier". This is your AdMob Publisher ID.
+    bannerView_.adUnitID = @"a152c4ce721c65a";
+    
+    // Let the runtime know which UIViewController to restore after taking
+    // the user wherever the ad goes and add it to the view hierarchy.
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    
+    // Initiate a generic request to load it with an ad.
+    [bannerView_ loadRequest:[GADRequest request]];
+
     self.navigationItem.title = address;
     // 1
     CLLocationCoordinate2D zoomLocation;

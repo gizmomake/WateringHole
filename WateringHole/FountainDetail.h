@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "MyLocation.h"
+#import "GADBannerView.h"
 @interface FountainDetail : UIViewController {
     MyLocation *ann;
+    GADBannerView * bannerView_;
 }
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) IBOutlet UIProgressView *taste;
