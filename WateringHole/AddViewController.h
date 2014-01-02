@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-
+#import "GADBannerView.h"
 #import <CoreLocation/CoreLocation.h>
 
 @interface AddViewController : UIViewController {
+    GADBannerView *bannerView_;
+
 }
 @property (nonatomic, strong) NSString *latitude;
 
