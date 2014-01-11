@@ -36,7 +36,7 @@
 		6C6503821881053900D6BA1B /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6503761881053900D6BA1B /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6C6503831881053900D6BA1B /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6503781881053900D6BA1B /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6C6503841881053900D6BA1B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65037B1881053900D6BA1B /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6C65038F188105DF00D6BA1B /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65038E188105DF00D6BA1B /* libGoogleAdMobAds.a */; };
+		6C650390188107EB00D6BA1B /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C65038E188105DF00D6BA1B /* libGoogleAdMobAds.a */; };
 		6CE14A1D187508FA0050C2F2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE14A1C187508FA0050C2F2 /* AdSupport.framework */; };
 		6CE14A3318750B220050C2F2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE14A3218750B220050C2F2 /* StoreKit.framework */; };
 		6CE14A4018750B840050C2F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE14A3F18750B840050C2F2 /* AudioToolbox.framework */; };
@@ -153,11 +153,11 @@
 				6CE3CA5C1874AAAF00191E67 /* libz.dylib in Frameworks */,
 				6CE3CA5A1874AAA500191E67 /* MobileCoreServices.framework in Frameworks */,
 				6C2769AF187200EC0093C289 /* AddressBook.framework in Frameworks */,
+				6C650390188107EB00D6BA1B /* libGoogleAdMobAds.a in Frameworks */,
 				6C2DF93F18712DB5000C8A31 /* CoreLocation.framework in Frameworks */,
 				6C2DF93D18712AFC000C8A31 /* MapKit.framework in Frameworks */,
 				6C2DF906187129BB000C8A31 /* UIKit.framework in Frameworks */,
 				6C2DF902187129BB000C8A31 /* Foundation.framework in Frameworks */,
-				6C65038F188105DF00D6BA1B /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
